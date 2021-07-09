@@ -16,3 +16,13 @@ mix.js('resources/js/app.js', 'public/js').postCss('resources/css/app.css', 'pub
     require('tailwindcss'),
     require('autoprefixer'),
 ]);
+
+
+mix
+  .js(["resources/js/admin/admin.js"], "public/js")
+  .sass("resources/sass/admin/admin.scss", "public/css")
+  .vue();
+
+if (mix.inProduction()) {
+  mix.version();
+}
