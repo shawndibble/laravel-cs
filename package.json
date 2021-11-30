@@ -23,6 +23,6 @@
         "vue-loader": "15.9.5",
         "sass-loader": "^8.0.2",
         "resolve-url-loader": "^3.1.0",
-        "sass": "^1.32.6"
+        "sass": "1.44.0"
     }
 }
